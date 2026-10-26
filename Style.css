@@ -1,0 +1,67 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    background-color: #3949ab;
+    color: white;
+    padding: 25px;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    width: 80%;
+    max-width: 600px;
+    margin: 25px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input, select {
+    width: 90%;
+    padding: 12px;
+    margin: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #3949ab;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #283593;
+}
+
+.task {
+    background-color: #f2f4fa;
+    padding: 12px;
+    margin-top: 12px;
+    border-radius: 5px;
+}
+
+.completed {
+    background-color: #d8f5df;
+}
+
+.delete {
+    background-color: #d32f2f;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 88%;
+        padding: 12px;
+    }
+}
